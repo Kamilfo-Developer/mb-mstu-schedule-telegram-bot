@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mb-mstu-schedule-telegram-bot"
+version = "0.1.0"
+description = ""
+authors = ["Kamil Biktimirov <Biktimirov.kamil@yandex.ru>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{ include = "mb_mstu_schedule_telegram_bot" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.4.0"
+mypy = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
